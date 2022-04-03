@@ -49,7 +49,7 @@ void ComplexNumber::Output() {
 	else {
 		cout << real_no << " " << imaginary_no << "i" << endl << endl;
 	}
-	
+
 }
 
 bool ComplexNumber::IsEqual(ComplexNumber c) {
@@ -107,7 +107,7 @@ ComplexNumber::~ComplexNumber()
 
 void Check(bool flag) {
 	if (flag == 1) {
-		cout << "C1 and C2 are not Equal." << endl;
+		cout << "C1 and C2 are Equal." << endl;
 	}
 	else if (flag == 0) {
 		cout << "C1 and C2 are not Equal. " << endl;
